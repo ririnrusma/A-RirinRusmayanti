@@ -1,0 +1,75 @@
+body { 
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f4; 
+  margin: 0; 
+  padding: 0; 
+}
+
+h1 { 
+  text-align: center; 
+  color: #333; 
+}
+
+p { 
+  text-align: center; 
+  color: #555; 
+}
+
+#produk {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 15px; 
+margin-top: 20px;
+padding: 10px;
+}
+
+.produk {
+border: 1px solid #ccc;
+border-radius: 8px;
+padding: 15px;
+width: 220px; 
+background-color: #fff;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+text-align: center;
+transition: transform 0.2s;
+}
+
+.produk:hover {
+transform: scale(1.05);
+}
+
+.produk img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+.produk h2 {
+font-size: 18px;
+color: #333;
+}
+
+.produk p {
+color: #555;
+font-size: 13px;
+}
+
+.tersedia { color: green; font-weight: bold; }
+.tidak-tersedia { color: red; font-weight: bold; }
+
+.btn {
+padding: 8px 15px;
+margin-top: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+font-size: 14px;
+transition: background-color 0.3s;
+}
+
+.btn:hover {
+background-color: #45a049;
+}
